@@ -13,7 +13,7 @@ def prime?(integer)
       return true
     end
   end
-
+end
 end
 
 # function is_prime(n)
