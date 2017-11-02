@@ -6,7 +6,9 @@ def prime?(integer)
   elsif integer%2 == 0 || integer%3 == 0
     return false
   p = 5
-  # while p * p <= n
+  while p * p <= n
+    if n%2 == 0 || n%3 == 0
+      return false
 end
 
 # function is_prime(n)
