@@ -7,7 +7,6 @@ def prime?(integer)
     return false
   p = 5
   # while p * p <= n
-
 end
 
 # function is_prime(n)
