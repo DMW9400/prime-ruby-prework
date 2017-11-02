@@ -9,6 +9,9 @@ def prime?(integer)
   while p * p <= n
     if n%2 == 0 || n%3 == 0
       return false
+      p+=6
+      return true
+    end
     
 end
 
